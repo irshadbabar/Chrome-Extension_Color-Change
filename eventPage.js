@@ -7,6 +7,10 @@ chrome.runtime.onMessage.addListener(function(request,sender,sendResponse){
     }
 })
 
+// addEventListener version
+document.addEventListener('selectionchange', () => {
+    console.log("inside event page" +document.getSelection());
+  });
 
 
 

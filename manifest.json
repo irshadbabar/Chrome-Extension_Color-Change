@@ -15,7 +15,7 @@
     },
     "background":{
         "scripts":["eventPage.js"],
-        "persistent":false
+        "persistent":true
     },
     "content_scripts":[
         {
@@ -27,8 +27,8 @@
     "permissions":[
         
         "tabs",
-        "https://developer.chrome.com/*"
-        // "storage",
+        "https://developer.chrome.com/*",
+        "storage"
         // "notifications",
         // "contextMenus"
     ]
